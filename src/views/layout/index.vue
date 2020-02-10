@@ -1,11 +1,14 @@
 <template>
   <div class="container">
     <!-- 当路由地址（path === $route.path）不是`我的`才显示 -->
+    <!-- 导航栏 组件 -->
     <van-nav-bar fixed title="黑马头条" right-text="搜索"
       @click-right="$router.push('/search')"/>
     <div class="my-wrapper" >
       <router-view></router-view>
     </div>
+
+    <!-- 标签栏 组件 -->
     <van-tabbar route>
       <van-tabbar-item to="/" icon="home-o">首页</van-tabbar-item>
       <van-tabbar-item to="/question"  icon="chat-o">问答</van-tabbar-item>

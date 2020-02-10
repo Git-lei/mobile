@@ -6,6 +6,10 @@ import store from './store'
 // 导入vant组件库
 import Vant from 'vant'
 import 'vant/lib/index.css'
+
+// 导入全局css
+import '@/assets/css/global.less'
+
 //导入 amfe-flexible
 import 'amfe-flexible/index.min.js'
 Vue.config.productionTip = false
