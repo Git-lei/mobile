@@ -10,12 +10,11 @@ import 'vant/lib/index.css'
 // 导入全局css
 import '@/assets/css/global.less'
 
-//导入 amfe-flexible
+// 导入 amfe-flexible
 import 'amfe-flexible/index.min.js'
 Vue.config.productionTip = false
-Vue.use(Vant),
+Vue.use(Vant)
 new Vue({
- 
   router,
   store,
   render: h => h(App)
