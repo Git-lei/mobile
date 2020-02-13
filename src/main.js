@@ -12,6 +12,8 @@ import '@/assets/css/global.less'
 
 // 导入 amfe-flexible
 import 'amfe-flexible/index.min.js'
+
+import '@/utils/validate' // 验证相关
 Vue.config.productionTip = false
 Vue.use(Vant)
 new Vue({
